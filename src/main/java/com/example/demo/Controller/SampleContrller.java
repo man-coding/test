@@ -7,10 +7,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping
 public class SampleContrller {
-	
+
 	@GetMapping("/")
 	public String ex1() {
-		
+
 		return "ex1";
+
 	}
 }
